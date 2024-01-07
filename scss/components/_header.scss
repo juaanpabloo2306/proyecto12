@@ -1,0 +1,21 @@
+nav{
+    background-color: blue;
+    padding: 15px;
+
+ul{
+      list-style: none;
+      display: flex; 
+    li{
+        padding: 15px;
+
+        &:hover{
+            color: red;
+        }
+
+       a{
+            font-size: 2rem;
+            text-decoration: none;
+        }
+      }
+   }
+}
